@@ -38,7 +38,7 @@ jobs:
       - run:
           name: Run pylint
           # This assumes pylint is installed via the install-package step above
-          command: pylint openapi_server
+          command: pylint
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
